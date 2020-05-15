@@ -1,25 +1,30 @@
-body {
-	margin: 160;
-	background: #222;
-	font-family: "Work Sans", sans-serif;
-	font-weight: 300;
-	background-color: beige;
-}
 
 .container {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: verdana, sans-serif;
+    font-style: bold;
+    color: black;
+}
+h1 {
+text-transform: capitalize;
+text-align: center;
+color: black;
+font-size: 50px;
 }
 
 footer {
   position: fixed;
   padding-left: 1250px;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
   right: 0;
+  color: blue;
 }
 .tab {
-	padding-left: 150px;
+	padding-left: 100px;
 }
 body {
     font-family: sans-serif;
