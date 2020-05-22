@@ -107,6 +107,7 @@ nav a:hover::before {
 
 .btn:link,
 .btn:visited {
+    margin-left: 10px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px 40px;
