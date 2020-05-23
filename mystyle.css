@@ -72,7 +72,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 
     position: relative;
 }
