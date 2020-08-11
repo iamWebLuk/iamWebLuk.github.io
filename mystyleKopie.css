@@ -1,5 +1,5 @@
 header {
-    background: #55d6aa;
+    background: #7d7d75;
 }
 
 header::after {
@@ -7,6 +7,7 @@ header::after {
     display: table;
     clear: both;
 }
+
 
 .fit {
 max-width: 80%;
@@ -39,12 +40,11 @@ padding-top: 100px;
 }
 
 footer {
-  position: fixed;
   padding-left: 1250px;
   bottom: 20px;
   left: 0;
   right: 0;
-  color: blue;
+  color: black;
 }
 .tab {
     padding-left: 100px;
@@ -53,7 +53,7 @@ body {
     margin-top: 0;
     margin: 0px;
     font-family: 'Work Sans', sans-serif;
-    background-color: #383838;
+    background-color: #ffffff;
     font-weight: 300;
 }
 
@@ -82,7 +82,7 @@ nav li {
 }
 
 nav a {
-color: #444;
+color: #dddddd;
 text-decoration: none;
 text-transform: uppercase;
 margin-right: 40px;
@@ -107,6 +107,10 @@ nav a::before {
 
 nav a:hover::before {
     width: 70%;
+}
+
+.changeColor {
+    background-color: #7d7d75;
 }
 
 .btn:link,
@@ -173,4 +177,10 @@ nav a:hover::before {
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+.trippleLineBreak {
+    float: right;
+    line-height: 100px;
+    margin-top: 35px;
 }
