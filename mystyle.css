@@ -1,5 +1,11 @@
+.background {
+  background-image: url(austin-smart-70350.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 header {
-  background: #7d7d75;
+  background: rgb(32, 32, 32, 0.7);
 }
 
 header::after {
@@ -17,9 +23,12 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
+.backToTopMargin {
+  margin-left: 50px;
+  float: left;
+  margin-top: 20px;
+  line-height: 70px;
+  color: black;
 }
 
 h1,
@@ -40,8 +49,8 @@ h1 {
 }
 
 .logo {
-  float: left;
-  padding: 25px;
+ margin-top: 10px;
+ margin-left: -50px;
 }
 
 .authorPadding {
@@ -72,11 +81,15 @@ body {
   margin-top: 42vh;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 nav {
   float: right;
-  padding-top: 30px;
-  background-color: #7d7d75;
-  margin-left: 0px;
+  margin-top: -10px;
+  opacity: 1;
 }
 
 nav ul {
@@ -87,9 +100,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 50px;
-  padding-bottom: 10px;
-
+  margin-left: 100px;
   position: relative;
 }
 
@@ -97,7 +108,7 @@ nav a {
   color: #dddddd;
   text-decoration: none;
   text-transform: uppercase;
-  margin-right: 40px;
+  margin-right: 0px;
 }
 
 nav a:hover {
@@ -108,26 +119,58 @@ nav a::before {
   content: "";
   display: block;
   height: 5px;
-  background-color: #444;
+  background-color: black;
 
-  position: absolute;
+  position: relative;
   top: 0;
-  width: 0%;
+  width: 0;
 
   transition: all ease-in-out 250ms;
 }
 
 nav a:hover::before {
-  width: 70%;
+  width: 100%;
 }
 
 .changeColor {
-  background-color: #7d7d75;
+  background-color: #775979af;
 }
 
-.blackBackgroundColor {
-  background-color: black;
+
+.rectangle {
+  width: 50%;
+  height: 470px;
+  background-color: rgb(255, 0, 0, 0);
+  margin: auto;
+  z-index: 1;
+  opacity: 1;
 }
+
+.rectangle .text {
+  text-align: justify;
+  margin: 38%;
+  margin-left: 0%;
+  opacity: 1;
+  width: 80%;
+}
+
+#height {
+  height: 200px;
+  width: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40%;
+}
+
+.pics_in_a_row {
+  display: flex;
+}
+
+
 
 .btn:link,
 .btn:visited {
@@ -198,6 +241,6 @@ nav a:hover::before {
 
 .trippleLineBreak {
   float: right;
-  line-height: 100px;
-  margin-top: 35px;
+  line-height: 70px;
+  margin-top: 20px;
 }
