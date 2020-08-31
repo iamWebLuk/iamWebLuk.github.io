@@ -3,38 +3,45 @@
   <head>
     <title>Main Paige</title>
     <meta charset="utf-8">
-    <!--<head style="background-color: #7d7d75;">-->
+   <!--<head style="background-color: #7d7d75;">-->
     <!-- Das ist eine seite über mich und meine hobbys-->
   </head>
   <body>
-    <div class="background">
-    <header>
-      <div class="container">
-        <link rel="stylesheet" href="mystyle.css" />
-        <img
-          src="redCircle.jpg"
-          id="top"
-          class="logo"
-          alt="logo"
-          width="40"
-          height="auto"
-        />
-        <nav class="flex-container">
-          <ui style="float: right;">
-       <div style="margin-right: 50px;"></div>
-       <li> <h3><a href="#biography">Biography</a></h3></li>
-            <li>
-              <h3><a href="#sport">Sport</a></h3>
-            </li>
-            <li>
-              <h3><a href="#gaming">Gaming</a></h3>
-            </li>
-          </ui>
-        </nav>
-      </div>
-    </header>
-    <!--</header>-->
+    <section>
+  <link rel="stylesheet" href="mystyle.css" />
+  
+    <div class="topnav" id="myTopnav">
+      <a href="#gaming" style="margin-right: 20px;">Gaming</a>
+      <a href="#sport">Sport</a>
+      <a href="#biography">Biography</a>
+       <div class="dropdown">
+        <button class="dropbtn">iamWebLuk.github.io
+          <i class="fa fa-caret-down"></i>
+        </button>
+        
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div> 
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+</section>
 
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+<div class="background">
+  
     <div class="header">
       <div class="content">
           <div class="header">
@@ -42,18 +49,18 @@
               <section id="biography">
                   <section>
 
-                    <div class="rectangle" style="width: 100%; background-color: rgba(169, 169, 169, 0.5); height: 845px;">
-                      <div class="rectangle" style="float: left; background-color: rgb(0, 128, 0, 0);">
+                    <div class="rectangle" style="width: 100%; background-color: rgba(169, 169, 169, 0.5); height: 600px;">
+                      <div class="rectangle" style="float: left; background-color: rgb(0, 0, 0, 0); height: auto;">
                       <img src="Passfoto.png" alt="Foto" class="center" style="border-radius: 20px; height: 200px; width: auto;">
                     </div>
                       <div class="rectangle" style="float: right; background-color: rgba(0, 0, 255, 0); color: black; text-align: justify;">
                       <div class="text">
                       <br>
                       <h1 style="color: black;">Biography</h1>
-                      <hr style="height: 1px; background-color: black; width: 80%; float: left;">
+                      <hr style="height: 1px; background-color: black; width: 100%; float: left;">
                       <br />
-                      <br>
-                      <br>
+               <br>
+                      <br><div style="color: black;">
                  My name is Lukas, I am student at the University of
                         Applied Sciene FH Joanneum.
                       
@@ -63,28 +70,29 @@
                         Currently I am in the 2nd semester but about to get into
                         the 3rd semester
                         At this website you can see my hobbys and what I like.
-                       
-     </div>
-                    </div>
-                 
+                     </div>
+                       </div>
+                     </div>
                     </div>         
-                  </div>
-                  </section> 
-                <section id=sport style="margin-top: 0;">
-                 
+                </div>
+              </div></div></div></div>
+                </section> 
+                  <section id=sport >
+               
                   <div style="background-color: rgba(50, 99, 42, 0.404);">
-                 
-                    <img src="https://tmssl.akamaized.net/images/wappen/head/40336.png?lm=1487499879" alt="SCUGARS" style="float: left; margin-left: 150px;">
+               <br><br><br>  
+                    <img src="Scu_Logo.jpg" alt="SCUGarsLogo" style="float: left; margin-left: 10%; width: 15%; height: auto;">
                   <br>
-                  <div class="rectangle" id="height">
+                  <div class="rectangle" id="height" style="text-align: center;">
                     <br>
-                    <center><h1>My favorite sport</h1></center>
-                    <center><h2>Football</h2></center>
-                    <h3><center>Champions 2018/19</center></h3>
+                    <h1>My favorite sport</h1>
+                    <h2>Football</h2>
+                    <br><br>
+                    <h3>Champions 2018/19</h3>
                   </div>
                   <br />
 
-                  <center><img class="fit" src="scu Meister.jpg" /></center>
+                  <img class="fit" src="scu Meister.jpg" style="margin: auto 10% auto 10%;"/>
                   </div>
                 </section>
 
@@ -96,77 +104,51 @@
                 <selection>
                   <div class="changeColor">
                     <br />
-                    <center><h2>These are my favorite games</h2></center>
+                    <h2>These are my favorite games</h2>
 
                     <p></p>
                     <p>
-                      <center>
-                        
-                          <font color="white"
-                            >Super Smash Bros. Ultimate & Call of Duty Warzone
-                            <p></p>
+                      <div style="text-align: center; color: white;">
+                            Super Smash Bros. Ultimate & Call of Duty Warzone
                             <p>I play them often with my sister and Andi :)</p>
                             For the Trailers, click on the images
-                            <center>
-                              <br />
+                          
+                              <br /><br><br>
                               <a
                                 href="https://www.youtube.com/watch?v=c1_xxJyv8io"
                                 target="_blank"
                               >
-                              <div class="pics_in_a_row" style="margin-left: 15%;">
-                                <img
-                                  src="smash.jpg"
-                                  height="300px"
-                                      width="500px";
-                                  style="flex: 1;"
-                                />
+                              <div class="rectangle" id="games" style="background-color: white;">
+
+                                <img src="smash.jpg" alt="Smash" height="auto" width="48%" style="float: left; margin-right: 0px;">
                                 <a
                                   href="https://www.youtube.com/watch?v=0E44DClsX5Q"
                                 >
-                                <nbsp></nbsp>
                                   <nbsp
                                     ><img
                                       src="warzone.jpg" 
-                                      height="300px"
-                                      width="500px";
-                                      style="flex: 1; padding-left: 10px;"
+                                      height="auto"
+                                      width=" 48%";
                                     /><nbsp>
                                     </div>
-                                      <br />
-                                      <br />
-
-                                      <!--<a href="https://github.com/iamWebLuk"><-->
-                                      </a>
-                                      
+                                    <br>
+                                    <br>
                                       <selection>
                                         <footer>
-                                          <a href="#top" class="backToTopMargin" title="Back to top">Back to top</a>
-                                          <div class="authorPadding">
-                                            
-                                            <div
-                                              class="trippleLineBreak"
-                                              style="color: black;">
-                                              &copy; Lukas Weber</div>
-                                             
-                                              
-                                          </div>
-                                        </footer>
+                                          <a href="#top" id="backToTop" title="">Back to top</a>
+                                          <div id="author">
+                                              &copy; Lukas Weber
+                                            </div>
+                                            </footer>
+                                            </div>
                                       </selection>
-                                    </nbsp></nbsp
-                                ></a
-                              >
-                            </center></font
-                          >
-                        
-                      </center>
                     </p>
-                  </div></selection
-                >
+                  </div></selection>
               </section>
             </div>
-          </div></a
-        >
-        </div>
+          </div>
+        </a>
+      </div>
     </div>
   </body>
 </div>

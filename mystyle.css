@@ -1,7 +1,14 @@
 .background {
-  background-image: url(austin-smart-70350.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-image: url(wood.jpg);
+  background-size: 100% 25.4%;
+  max-width: 100%;
+  height: 600px;
+}
+
+#firstSection {
+  background-color: rgb(128, 128, 128, 0.5);
+  width: 100%;
+  height: 600px;
 }
 
 header {
@@ -21,14 +28,194 @@ header::after {
 
 html {
   scroll-behavior: smooth;
+} /* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(51, 51, 51, 1);
+  opacity: 1;
+  overflow: hidden;
 }
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #4caf50;
+}
+
+.topnav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #4caf50;
+
+  position: relative;
+  top: 0;
+  width: 0;
+
+  transition: all ease-in-out 250ms;
+}
+
+.topnav a:hover::before {
+  width: 100%;
+}
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  line-break: auto;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child),
+  .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .background {
+    background-size: 100% 23.75%;
+  }
+
+  #firstSection {
+    height: 537px;
+    opacity: 1;
+  }
+  .center {
+    margin: 18px;
+  }
+  #games {
+    height: 10px;
+    background-color: red;
+    color: yellow;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+footer {
+  margin-top: 100px;
+  color: black;
+  bottom: 20px;
+}
+
+#backToTop {
+  float: left;
+  margin-left: 50px;
+  text-decoration: underline;
+  color: black;
+}
+
+#author {
+  padding-right: 50px;
+  float: right;
+}
 .backToTopMargin {
   margin-left: 50px;
   float: left;
   margin-top: 20px;
-  line-height: 70px;
   color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -39,6 +226,7 @@ h5,
 h6 {
   font-family: verdana, sans-serif;
   color: white;
+  text-align: center;
 }
 
 h1 {
@@ -48,29 +236,21 @@ h1 {
   padding-top: 100px;
 }
 
-.logo {
- margin-top: 10px;
- margin-left: -50px;
-}
-
 .authorPadding {
   padding-right: 50px;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: black;
 }
 
-footer {
-  /*padding-right: 50px;*/
-  /*padding-left: 1250px;*/
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  background-color: black;
-}
 .tab {
   padding-left: 100px;
 }
+
 body {
   margin-top: 0;
-  margin: 0px;
+  margin: 0;
   font-family: "Work Sans", sans-serif;
   background-color: #ffffff;
   font-weight: 300;
@@ -86,56 +266,9 @@ body {
   margin: 0 auto;
 }
 
-nav {
-  float: right;
-  margin-top: -10px;
-  opacity: 1;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 100px;
-  position: relative;
-}
-
-nav a {
-  color: #dddddd;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-right: 0px;
-}
-
-nav a:hover {
-  color: black;
-}
-
-nav a::before {
-  content: "";
-  display: block;
-  height: 5px;
-  background-color: black;
-
-  position: relative;
-  top: 0;
-  width: 0;
-
-  transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
-  width: 100%;
-}
-
 .changeColor {
   background-color: #775979af;
 }
-
 
 .rectangle {
   width: 50%;
@@ -148,99 +281,25 @@ nav a:hover::before {
 
 .rectangle .text {
   text-align: justify;
-  margin: 38%;
+  margin: 25%;
   margin-left: 0%;
   opacity: 1;
   width: 80%;
 }
 
-#height {
-  height: 200px;
-  width: 50%;
+#games {
+  width: 80%;
+  height: 300px;
+  overflow: hidden;
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 40%;
+  padding-top: 28%;
 }
 
 .pics_in_a_row {
   display: flex;
-}
-
-
-
-.btn:link,
-.btn:visited {
-  position: fixed;
-  margin-left: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 15px 40px;
-  display: inline-block;
-  border-radius: 100px;
-  transition: all 0.2s;
-  position: absolute;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.btn:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.btn-white {
-  background-color: #fff;
-  color: #777;
-}
-
-.btn::after {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all 0.4s;
-}
-
-.btn-white::after {
-  background-color: #fff;
-}
-
-.btn:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-}
-
-.btn-animated {
-  animation: moveInBottom 5s ease-out;
-  animation-fill-mode: backwards;
-}
-
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-
-.trippleLineBreak {
-  float: right;
-  line-height: 70px;
-  margin-top: 20px;
 }
