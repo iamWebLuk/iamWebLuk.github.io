@@ -154,11 +154,14 @@ html {
   .center {
     margin: 18px;
   }
-  #games {
-    height: 10px;
+  .rectangle {
     background-color: red;
-    color: yellow;
   }
+
+  #games {
+    background-color: green;
+  }
+
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -187,12 +190,20 @@ html {
     width: 100%;
     text-align: left;
   }
+
+  #games {
+    background-color: white;
+  }
+
+  .rectangle {
+    background-color: green;
+  }
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   color: black;
-  bottom: 20px;
 }
 
 #backToTop {
@@ -291,6 +302,7 @@ body {
   width: 80%;
   height: 300px;
   overflow: hidden;
+   /* background-color: green; */
 }
 
 .center {
