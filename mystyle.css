@@ -5,6 +5,12 @@
   height: 600px;
 }
 
+.gamingBackground {
+  background-image: url(pinkBackground.jpg);
+  background-size: 100%;
+
+}
+
 #firstSection {
   background-color: rgb(128, 128, 128, 0.5);
   width: 100%;
@@ -162,6 +168,13 @@ html {
   #games {
     background-color: green;
   }
+
+  #branding {
+    position: left;
+    top: 35px;
+    left: 10px;
+  }
+
 
 }
 
