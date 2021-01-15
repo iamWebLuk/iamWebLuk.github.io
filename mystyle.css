@@ -2,7 +2,7 @@
   background-image: url(wood.jpg);
   background-size: 100% 25.4%;
   max-width: 100%;
-  height: 600px;
+  height: 450px;
 }
 
 .gamingBackground {
@@ -14,7 +14,7 @@
 #firstSection {
   background-color: rgb(128, 128, 128, 0.5);
   width: 100%;
-  height: 600px;
+  height: 650px;
 }
 
 header {
@@ -36,8 +36,10 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
+hr { 
+  height: 1px;
+  background-color: black;
+} 
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -195,10 +197,10 @@ body {
   margin-top: 42vh;
 }
 
-.container {
+/*.container {
   width: 80%;
   margin: 0 auto;
-}
+}*/
 
 .changeColor {
   background-color: #775979af;
