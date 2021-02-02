@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .background {
   background-image: url(wood.jpg);
   background-size: 100% 25.4%;
@@ -99,76 +98,65 @@ hr {
           transform: rotate(-45deg) translate(35px, 35px);
 }
 
-.navbar-toggler-icon::before {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+.navbar-toggler {
+  border: 1px solid white;
+  cursor: pointer;
+  width: 1.8em;
+  height: 1.8em;
+  padding: 0 0 0.15em 0.35em;
 }
 
-.navbar-toggler-icon ::after {
-  -webkit-transform: translateY(10px);
-          transform: translateY(10px);
+.navbar-toggler:focus {
+  outline: none;
 }
 
-/* Animation */
-.navbar-toggler-icon .open .navbar-toggler-icon  {
-  -webkit-transform: translateX(-50px);
-          transform: translateX(-50px);
-  background: transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+.navbar-toggler .navbar-toggler-inner,
+.navbar-toggler .navbar-toggler-inner::before,
+.navbar-toggler .navbar-toggler-inner::after {
+  width: 1em;
+  height: 0.16em;
+  background-color: white;
+  position: absolute;
 }
 
-.navbar-toggler-icon .open .navbar-toggler-icon ::before {
-  -webkit-transform: rotate(45deg) translate(35px, -35px);
-          transform: rotate(45deg) translate(35px, -35px);
+.navbar-toggler .navbar-toggler-inner::before {
+  content: "";
+  display: block;
+  top: -0.3em;
 }
 
-.navbar-toggler-icon  .navbar-toggler-icon ::after {
-  -webkit-transform: rotate(-45deg) translate(35px, 35px);
-          transform: rotate(-45deg) translate(35px, 35px);
+.navbar-toggler .navbar-toggler-inner::after {
+  content: "";
+  display: block;
+  bottom: -0.3em;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-/*@media screen and (max-width: 600px) {*/
-/*
-    @media screen and (max-width: 800px) {
-    .topnav a:not(:last-child),
-    .dropdown .dropbtn {
-      display: none;
-    }
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-    .background {
-      background-size: 100% 23.75%;
-    }
-  
-    #firstSection {
-      height: 537px;
-      opacity: 1;
-    }
-    .center {
-      margin: 18px;
-    }
-    .rectangle {
-      background-color: red;
-    }
-  
-    #games {
-      background-color: green;
-    }
-  
-    #branding {
-      position: left;
-      top: 35px;
-      left: 10px;
-    }
-  
-  
-  }
-  
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+.navbar-toggler .navbar-toggler-inner {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.navbar-toggler.active .navbar-toggler-inner {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.navbar-toggler.active .navbar-toggler-inner::before {
+  top: 0;
+  opacity: 0;
+}
+
+.navbar-toggler.active .navbar-toggler-inner::after {
+  bottom: 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 800px) {
   .topnav.responsive {
     position: relative;
