@@ -1,65 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Main Paige</title>
+    <title>Main Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
      crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
- 
+<script src="main.js"></script>
 </head>
 
   <body>
     <section>
-  <!--<link rel="stylesheet" href="mystyle.css" />-->
-  <link rel="stylesheet" href="./css/main.css">
-  <script src="bmiCalculator.js"></script>
+  <link rel="stylesheet" href="./dist/css/main.css">
   
   <script src="http://code.jquery.com/jquery.js"></script>
   <script src="bootstrap/js/bootstrap.js"></script>
 
-  <!--
-    <div class="topnav" id="myTopnav">
-      <a href="#gaming" style="margin-right: 20px;">Gaming</a>
-      <a href="#sport">Sport</a>
-      <a href="#biography">Biography</a>
-       <div class="dropdown">
-          <button class="dropbtn" id="branding">iamWebLuk.github.io
-            <i class="fa fa-caret-down"></i>
-          </button>
-          
-          <div class="dropdown-content">
-            <a href="CV.pdf" target="blank">Resume</a>
-            <a href="bmiCalculator.js">BMI Calculator</a>
-            <a href="#">Link 3</a>
-          </div>
-        </div> 
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-    </div>
-</section>
-
-<script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-  </script>
--->
-
+  
 <!--Navbar-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">iAmWebLuk</a>
   <!--This is the hamburger-->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <div class="navbar-toggler-inner"></div>
   </button>
 <!--
@@ -96,51 +64,20 @@
 </nav>
 
 <!--Biography-->
-<div class="background">
+<div style="">
     <div class="header">
       <div class="content">
           <div class="header">
             <div class="content">
               <section id="biography">
-                  <section>
-<!--
-                    <div class="rectangle" style="width: 100%; background-color: rgba(169, 169, 169, 0.5); height: 600px;">
-                      <div class="rectangle" style="float: left; background-color: rgb(0, 0, 0, 0); height: auto;">
-                   <img src="Passfoto.png" class="img-fluid" adlt="Picture" style="border-radius: 20px; margin-left: 50%;" >
-                    </div>
-                      <div class="rectangle" style="float: right; background-color: rgba(0, 0, 255, 0); color: black; text-align: justify;">
-                      <div class="text">
-                      <br>
-                      <h1 style="color: black;">Biography</h1>
-                      <hr style="height: 1px; background-color: black; width: 100%; float: left;">
-                      <br>
-                      <br>
-                      <br>
-                      <div style="color: black;">
-                 My name is Lukas, I am student at the University of
-                        Applied Sciene FH Joanneum.
-                      
-                     I was born and raised in lower austria and since september
-                        2019 I live in Graz for
-                        my studies. My major is Mobile Software Development.
-                        Currently I am in the 3nd semester but about to get into
-                        the 4rd semester.
-                        At this website you can see my hobbys and what I like.
-                     </div>
-                       </div>
-                     </div>
-                    </div>         
-                </div>
-              </div></div></div>
-            -->
-              
 <br><br><br>
                 <div class="container">
                   <div class="row">
-                    <div class="col" style=" text-align: center">
+                    <div class="col-sm" style=" text-align: center">
                       <img src="Passfoto.png" alt="Photo">
+                     
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
 
                       <h1 style="color: black;">Biography</h1>
                       <hr>
@@ -150,7 +87,7 @@
                      I was born and raised in lower austria and since september
                         2019 I live in Graz for
                         my studies. My major is Mobile Software Development.
-                        Currently I am in the 3nd semester but about to get into
+                        Currently I am in the 3rd semester but about to get into
                         the 4rd semester.
                         At this website you can see my hobbys and what I like.
                     </div>
@@ -168,7 +105,7 @@
                     <br>
                 <div class="row">
                   <div class="col-md-4" style="margin-left: 0%; text-align: center;"><img src="Scu_Logo.jpg" alt="Scu Logo"></div>
-                  <div class="col-md-4" style="text-align: center;"><br><h1 style="color:black">My Favorite Sport</h1>
+                  <div class="col-md-4" style="text-align: center;"><br><h1 style="color:black">My Favorite Sports</h1>
                     <h2 style="color:black">Football</h2>
                     <h3 style="color:black">Champions 2018/2019</h3></div>
                 </div>
@@ -233,36 +170,6 @@
 
                                   </selection>
                                   <br>
-<!--
-                                        <footer>
-                                          <div class="row" style="height: 100px;">
-                                            <div class="col"style="background-color:red";>
-                                              <a href="#top" id="backToTop">Back to Top</a>
-                                            </div>
-                                            
-                                            <div class="col" style="color: black;";>
-                                              Sections
-                                              <br>
-                                              <span><a href="#biography">Biography</a></span>
-                                              <br>
-                                              <span><a href="#sport">Sport</a></span>
-                                              <br>
-                                              <span><a href="#gaming">Gaming</a></span>
-                                            </div>
-                                            <div class="col" style="background-color: green";>
-                                              &copy; Lukas Weber
-                                              <div style="height: 50px; width: 50px;">
-                                                <a href="https://github.com/iamWebLuk"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="github"x></a>
-                                              <a href="https://www.instagram.com/lukas.weber_/"><img src="Instagram_logo.png" width="30" height="30"></a>  
-                                            
-                                            <img src="https://icon2.cleanpng.com/20180720/so/kisspng-united-states-logo-business-parramatta-eels-manly-twitter-logo-white-5b517ccbaff072.8520905515320670197207.jpg" style="width: 40px; height: 40px;">
-                                              </div>
-                                            </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      -->
-                                      
                                       <hr style="height: 1px; border: none; color: #333; background-color: #333;">
                                       
                                         <div class="row">
