@@ -5,6 +5,11 @@
   height: 450px;
 }
 
+#white-text {
+  color: white;
+  text-decoration: none;
+}
+
 header::after {
   content: "";
   display: table;
