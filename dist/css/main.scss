@@ -155,6 +155,24 @@
 }
   
 
+//hover effect for pictures
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 1s ease;
+  backface-visibility: hidden;
+}
+
+.container:hover .image {
+  opacity: 0.7;
+}
+
+
+
+
 
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 800px) {
