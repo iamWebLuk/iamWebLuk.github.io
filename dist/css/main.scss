@@ -157,6 +157,11 @@
 
 //hover effect for pictures
 
+.container {
+  position: relative;
+  width: 50%;
+}
+
 .image {
   opacity: 1;
   display: block;
