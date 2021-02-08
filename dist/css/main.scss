@@ -1,9 +1,3 @@
-.background {
-    background-image: url(wood.jpg);
-    background-size: 100% 25.4%;
-    max-width: 100%;
-    height: 450px;
-  }
   
 #white-text {
   color:white;
@@ -15,11 +9,6 @@
     content: "";
     display: table;
     clear: both;
-  }
-  
-  .fit {
-    max-width: 80%;
-    max-height: 70%;
   }
   
   html {
@@ -149,36 +138,8 @@
         bottom: 0;
         transform: rotate(-90deg);
     }
-
-
-
 }
   
-
-//hover effect for pictures
-
-.container {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: 1s ease;
-  backface-visibility: hidden;
-}
-
-.container:hover .image {
-  opacity: 0.7;
-}
-
-
-
-
-
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 800px) {
     .topnav.responsive {
@@ -213,29 +174,12 @@
     .rectangle {
       background-color: green;
     }
+
   }
   
   footer {
     margin-top: 20px;
     margin-bottom: 50px;
-    color: black;
-  }
-  
-  #backToTop {
-    float: left;
-    margin-left: 50px;
-    text-decoration: underline;
-    color: black;
-  }
-  
-  #author {
-    padding-right: 50px;
-    float: right;
-  }
-  .backToTopMargin {
-    margin-left: 50px;
-    float: left;
-    margin-top: 20px;
     color: black;
   }
   
@@ -270,33 +214,12 @@
     padding-top: 100px;
   }
   
-  .authorPadding {
-    padding-right: 50px;
-    float: right;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: black;
-  }
-  
-  .tab {
-    padding-left: 100px;
-  }
-  
   body {
     margin-top: 0;
     margin: 0;
     font-family: "Work Sans", sans-serif;
     background-color: #ffffff;
     font-weight: 300;
-  }
-  
-  .text-box {
-    margin-left: 44vw;
-    margin-top: 42vh;
-  }
-  
-  .changeColor {
-    background-color: #775979af;
   }
   
   .rectangle {
@@ -319,17 +242,6 @@
   #games {
     width: 80%;
     overflow: hidden;
-  }
-  
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 28%;
-  }
-  
-  .pics_in_a_row {
-    display: flex;
   }
   
   *, *:after, *:before {
