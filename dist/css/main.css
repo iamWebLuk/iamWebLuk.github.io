@@ -8,6 +8,13 @@ html, body {
   text-decoration: none;
 }
 
+#rubiks-text {
+  font-family: 'Brygada 1918';
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
 a:link {
   text-decoration: none;
   color: white;
@@ -240,7 +247,7 @@ h6 {
 h1 {
   display: inline;
   text-transform: capitalize;
-  text-align: center;
+  text-align: center !important;
   font-size: 30px;
   padding-top: 100px;
 }
