@@ -1,8 +1,28 @@
   
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 #white-text {
   color:white;
   text-decoration: none;
 
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  height: 50px
 }
 
   header::after {
@@ -203,13 +223,13 @@
   h5,
   h6 {
     font-family: verdana, sans-serif;
-    color: white;
     text-align: center;
   }
   
   h1 {
     display: inline;
     text-transform: capitalize;
+    text-align: center;
     font-size: 30px;
     padding-top: 100px;
   }
