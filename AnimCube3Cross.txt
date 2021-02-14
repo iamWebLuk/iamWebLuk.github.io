@@ -1,0 +1,11 @@
+bgcolor=ffffff
+    butbgcolor=99eebb
+    movetext=1
+    clickprogress=1
+    buttonbar=1
+    move=L,D,F2,R2
+    speed=15
+    hint=10
+    align=1
+    scale=3
+    facelets=****w*******w******w**og***************o*********g****
