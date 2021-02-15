@@ -7,4 +7,5 @@ bgcolor=ffffff
     align=1
     scale=3
     hint=10
+    buttonheight=25
     facelets=yybyyybyywwwwwwwwwgbbbbbrbbogggggyggrooooooooyrrrrrgrr

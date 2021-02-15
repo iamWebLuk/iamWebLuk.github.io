@@ -8,4 +8,5 @@ bgcolor=ffffff
     hint=10
     align=1
     scale=3
+    buttonheight=25
     facelets=****w*******w******w**og***************o*********g****

@@ -6,5 +6,5 @@ bgcolor=ffffff
     speed=15
     align=1
     scale=3
-    
+    buttonheight=25
     facelets=*y*yyy*y*wwwwwwwww*ooboo*oo*rrorr*rr*g*bbbbbb*ggrgg*gg
