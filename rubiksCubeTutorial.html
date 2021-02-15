@@ -70,7 +70,7 @@
 <!-------------------------------Navi Bar ends here ------------------------------>
 
 <h2 style="padding-top: 20px; font-family: 'Brygada 1918'">Rubiks Cube</h2>
-<h3>! This site is under construct !</h3>
+<h3>! This site is under construction !</h3>
 
 <h3 style="padding: 20px 50px 20px 50px; font-family: 'Brygada 1918'; text-align: justify;">
 
@@ -152,7 +152,7 @@ left clockwise and L' is left counterclockwise. You have to look at it from the 
   The first thing to do is the cross. It's pretty easy and straight forward. Start
   with the white side on top. The easiest thing is to put the white piece under the slot
   where it belongs to and then make a simple turn to put it on top. This step can be easily
-  solved intuitive and algorythms or certain notations are not neceary.
+  solved intuitive and algorithms or certain notations are not neceary.
 <br><center>
   <iframe src="cube3.html?config=AnimCube3Cross.txt" frameborder="0" width="160" height="179"></iframe>
   </center>
@@ -171,20 +171,11 @@ After you finished the cross on the top, you need to put all the corners in. The
 is to put it under the spot where it belongs to while the white color is facing you, und make a simple
 D or D' move so you cannot use the L or R spot without getting the corner in a different position.
 In this example the white one is facing towards you. But you can adapt all the moves from it because all the
-steps for the other cases are in this algorythm implemented.
+steps for the other cases are in this algorithm implemented.
 <center>
 <iframe src="cube3.html?config=FirstLayer.txt" frameborder="0" width="160" height="179"></iframe>
 </center>
   <br>
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-  sed diam nonumy eirmod tempor invidunt ut labore et dolore
-  magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-  et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-  dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 </section>
 <br>
 
@@ -196,15 +187,19 @@ steps for the other cases are in this algorythm implemented.
 <section id="secondLayer">
   <h1>Second Layer</h1>
   <hr>
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-  sed diam nonumy eirmod tempor invidunt ut labore et dolore
-  magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-  et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-  dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  For this step it is easier when you turn your cube around so that the 
+  yellow side is in top and the white on the bottom. To have a better overview.
+  What easy at this step is, put the edge on the top so that the color on the
+  front will match. Then turn the top layer away from the edge, bring the side up
+  and bring the top layer back. Now turn it with L/R' back in the right spot.
+  <br>
+  <center>
+    <iframe src="cube3.html?config=SecondLayer.txt" frameborder="0" width="160" height="179"></iframe>
+    </center>
+
+    The first two layer is more intuitive than notations and algorithm. So it
+    is not that hard. Try a little bit for yourself and get comfortable with the 
+    cube and how it turns and look whats happening with the other stones.
 </section>
 <br>
 
@@ -216,15 +211,37 @@ steps for the other cases are in this algorythm implemented.
 <section id="yellowCross">
   <h1>Yellow Cross</h1>
   <hr>
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-  sed diam nonumy eirmod tempor invidunt ut labore et dolore
-  magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-  et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-  dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  Now all the notations and algorithm comes step by step.
+  That step is one of the easiest ones and you only need to know one
+  algorithm. There are 4 different states that are important how the
+  yellow top could look like. I know there are many more shapes that
+  can be on top but these are the ones you are looking for.
+  
+  <img src="pictures/Rubiks_Cube_Tutorial/11.png" alt="yellow_cross" style="margin: 50px 0 50px 0;">
+  
+
+  Hold the cube so that you can see one of the patterns above.
+  If you have only the dot, it doesn't matter how you hold the cube. 
+  For the mirrored L shape hold is so that it is '9 o'clock'.
+  The straight line should go from left to right and when you have the cross
+  just skip this section because you are already done :-)
+
+
+  <center>
+    <iframe src="cube3.html?config=YellowCross.txt" frameborder="0" width="160" height="179"></iframe>
+    </center>
+<div style="padding: 50px 0 50px 0 ; text-align: center;">
+ Always use: F - R - U - R' - U' - F'
+<br>
+<br>
+Dot is step 0 - 6
+<br>
+Mirrored L is step 7 - 13
+<br>
+Straight Line is step 14 - 19
+</div>
+The algorithm for this section is always the same, no matter how your yellow top
+is looking like.
 </section>
 <br>
 
@@ -233,23 +250,89 @@ steps for the other cases are in this algorythm implemented.
   <img src="pictures/Rubiks_Cube_Tutorial/12.svg" alt=""></center>
 
   <br><br>
+
+  <section id="orientCross">
+    <h1>Orient Cross</h1>
+    <hr>
+  
+    At this section there you can't solve the cube by intuition anymore.
+    You can see that the cross is solved but it doesn't match with
+    the colors on the side.
+    <br>
+    Turn the upper layer around and look what color match with the others.
+    Your goal is to find a pair that is either oposite or at 3 o'clock.
+    You can only have those 2 states. You can have either solved all four than skip
+    this step, or second you have two colors matching with the colors from the first
+    two layers.
+
+
+    <h5 style="margin-top: 30px;">Front and Side is matching</h5>
+    <center>
+      <iframe src="cube3.html?config=3OClock.txt" frameborder="0" width="160" height="179"></iframe>
+      </center>
+      Turn the cube so that the matching colors are pointing back and to the right
+      Like when the time is 3 o'clock.
+      Then do a this simple algorithm:
+      <br>
+      <center>
+R-U-R'-U-R-U2-R'
+<br>
+and at the end a simple U turn to line them all up.
+<br>
+</center>
+    You dont care how you hold the cube. You can do it from what side you want.
+    Now in this example when you turn the cube, it's personal preferance if you
+    want so you see that the colors blue and green
+    and red and orange are now opposite of each other.
+    <br>
+    In the next step you can see what to do when the opposite colors are matching.
+
+    <br>
+    <center style="margin-top: 30px;">
+      After that step, the cube should look like this. <br>
+      <img src="pictures/Rubiks_Cube_Tutorial/13.svg" alt=""></center>
+<br><br>
+  </section>
+
 <section id="orientLastLayer">
   <h1>Orient Edges</h1>
   <hr>
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-  sed diam nonumy eirmod tempor invidunt ut labore et dolore
-  magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-  et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-  dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+  At this section you can have solved either none, one or all.
+
+
+  When you have none, it doesn't matter how you hold your cube.
+
+  Your goal is to find one corner that is in it's right spot and turn
+  this to the front side on the right.
+  <center>
+    <iframe src="cube3.html?config=OrientEdge.txt" frameborder="0" width="160" height="179"></iframe>
+    </center>
+    <center>
+Do this algorithm
+<br>
+U - R - U' - L' - U - R' - U' - L
+</center>
+
+Now you see that one of the four edges is on the right spot but not in its
+correct place. Turn the cube so, that the right edge is on the front 
+right spot.
+<div style="margin-top: 30px;">
+Do the same algorithm again to line up all the other edges.
+</div>
+<center>
+  <iframe src="cube3.html?config=OrientEdgeAgain.txt" frameborder="0" width="160" height="179"></iframe>
+  </center>
+  <center>
+<br>
+U - R - U' - L' - U - R' - U' - L
+</center>
+<br>
 </section>
 <br>
 
 <center>
-  After that step, the cube is finished. <br>
+  Now all of the edges are now correct oriented and the cube should look like this. <br>
   <img src="pictures/Rubiks_Cube_Tutorial/16.svg" alt=""></center>
 
 
@@ -257,15 +340,23 @@ steps for the other cases are in this algorythm implemented.
 <section>
   <h1>Last Step</h1>
   <hr>
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-  sed diam nonumy eirmod tempor invidunt ut labore et dolore
-  magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-  et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-  dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  In this last step you have get every corner in the right place in the right
+  position. Hold the cube so that the corner you want to solve is in the front
+  to your right. Now to get the corner in the right position do a simple algorithm
+  as long as the yellow color is facing upwards:
+  <center>
+    <br>
+    <center>
+      <iframe src="cube3.html?config=LastStep.txt" frameborder="0" width="160" height="179"></iframe>
+      </center>
+    R' - D' - R - D
+    <br>
+    For now you should not care about the destroyed cube. When this step is done,
+    and you did everything correctly the whole cube should be finished. When you
+    done the corner, make a U turn to put the next corner in the front right position
+    and do the same algorithm as before. You should do this with every corner until
+    the cube is solves. At last align the layers correct.
+  </center>
 </section>
 <br>
 
@@ -275,8 +366,7 @@ steps for the other cases are in this algorythm implemented.
 
 
 
-
-  TEST <iframe src="cube3.html?config=AnimCube3.txt" frameborder="0" width="120" height="139"></iframe>
+  Congratulations, your cube is now solved :-)
 
 <!---------------------------- Footer begins here -------------------------------->
 

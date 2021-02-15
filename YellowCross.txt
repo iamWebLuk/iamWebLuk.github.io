@@ -1,0 +1,10 @@
+bgcolor=ffffff
+    butbgcolor=99eebb
+    clickprogress=1
+    buttonbar=1
+    move=F,R,U,R',U',F',U2,F,R,U,R',U',F',F,R,U,R',U',F'
+    speed=15
+    align=1
+    scale=3
+    
+    facelets=*y*yyy*y*wwwwwwwww*ooboo*oo*rrorr*rr*g*bbbbbb*ggrgg*gg
