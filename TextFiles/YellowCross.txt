@@ -7,4 +7,4 @@ bgcolor=ffffff
     align=1
     scale=3
     buttonheight=25
-    facelets=*y*yyy*y*wwwwwwwww*ooboo*oo*rrorr*rr*g*bbbbbb*ggrgg*gg
+    facelets=*b*gyr*o*wwwwwwwww*ooyoo*oo*rryrr*rr*y*bbbbbb*ggygg*gg

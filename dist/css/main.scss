@@ -2,6 +2,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  font-family: 'Brygada 1918';
 }
 
 #white-text {
@@ -193,7 +194,7 @@ a:link {
       width: 100%;
       text-align: left;
     }
-  
+
     #games {
       background-color: whitesmoke;
     }
@@ -202,7 +203,20 @@ a:link {
       background-color: green;
     }
 
+    .column-margin {
+      margin: 50px 0;
+    }
+
   }
+
+  @media screen and (min-width:1025px){
+    #rubiks-text {
+      margin: 0 50px 0 50px;
+    }
+     
+   }
+
+
   
   footer {
     margin-top: 20px;
@@ -229,8 +243,9 @@ a:link {
   h4,
   h5,
   h6 {
-    font-family: verdana, sans-serif;
+    font-family: 'Brygada 1918', sans-serif;
     text-align: center;
+    font-weight: bold;
   }
   
   h1 {
@@ -244,7 +259,7 @@ a:link {
   body {
     margin-top: 0;
     margin: 0;
-    font-family: "Work Sans", sans-serif;
+    font-family: 'Brygada 1918', sans-serif;
     background-color: #ffffff;
     font-weight: 300;
   }
