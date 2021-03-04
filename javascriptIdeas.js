@@ -170,8 +170,9 @@ function determinante() {
     alert("Please fill the matrix with numbers")
   } else {
   document.getElementById("matrix").innerHTML = determinante
-  document.getElementById("determinanteBtn").style.border = "2px solid #4CAF50"
-  }
+  document.getElementById("determinanteBtn").style.border = "2px solid black";  
+  document.getElementById("spurBtn").style.border = "none";
+}
 }
 
 function spur() {
@@ -184,6 +185,7 @@ alert("Please fill the matrix with numbers")
 } else  {
   document.getElementById("matrix").innerHTML = a+b+c
   var x = document.getElementById("spurBtn")
+  document.getElementById("determinanteBtn").style.border = "none"
   x.style.border = "2px solid black";
 }
 }
