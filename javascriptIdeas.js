@@ -180,16 +180,42 @@ function spur() {
   var b = parseInt(document.getElementById("index4").value)
   var c = parseInt(document.getElementById("index8").value)
 
-if(!a||a===''||!b||b===''||!c||c==='') {
-alert("Please fill the matrix with numbers")
-} else  {
+if(a!==''||b!==''||c!=='') {
   document.getElementById("matrix").innerHTML = a+b+c
   var x = document.getElementById("spurBtn")
   document.getElementById("determinanteBtn").style.border = "none"
   x.style.border = "2px solid black";
+} else {
+  alert("Please fill the matrix with numbers")
 }
+if(document.getElementById("matrix").value===NaN) {
+  alert("alarm")
+}
+console.log(document.getElementById("matrix").value)
 }
 
-function emtpyFields() {
+function emptyFields() {
+  var a = parseInt(document.getElementById("index0").value)
+  var b = parseInt(document.getElementById("index1").value)
+  var c = parseInt(document.getElementById("index2").value)
+  var d = parseInt(document.getElementById("index3").value)
+  var e = parseInt(document.getElementById("index4").value)
+  var f = parseInt(document.getElementById("index5").value)
+  var g = parseInt(document.getElementById("index6").value)
+  var h = parseInt(document.getElementById("index7").value)
+  var i = parseInt(document.getElementById("index8").value)
 
+  var matrix = new Array(a,b,c,d,e,f,g,h,i)
+
+for(let i = 0; i<matrix.length; i++) {
+  console.log("index"+ i + " = " + matrix[i])
+if(isNaN(matrix[i])) {
+  console.log("in the loop")
+  matrix[i].value = "0";
+}
+}
+var lol=new Array( "test", "test2" );
+//for( var x = 0; x < lol.length; x++ ) {
+  //  number = parseInt(document.getElementById(lol[x]).value);
+//}
 }
