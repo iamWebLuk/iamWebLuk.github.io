@@ -149,3 +149,45 @@ window.onload = function() {
         new Stopwatch(elems[i]);
       }
       
+function determinante() {
+  var a = parseInt(document.getElementById("index0").value)
+  var b = parseInt(document.getElementById("index1").value)
+  var c = parseInt(document.getElementById("index2").value)
+  var d = parseInt(document.getElementById("index3").value)
+  var e = parseInt(document.getElementById("index4").value)
+  var f = parseInt(document.getElementById("index5").value)
+  var g = parseInt(document.getElementById("index6").value)
+  var h = parseInt(document.getElementById("index7").value)
+  var i = parseInt(document.getElementById("index8").value)
+
+  console.log(a+b)
+  var determinante = a*e*i+b*f*g+c*d*h-b*d*i-a*f*h-c*e*g
+
+  //check if all fields are not null or empty
+  if(!a||!b||a===''||b===''||!c||!d||c===''||d===''||
+    !e||!f||e===''||f===''||!g||!h||g===''||h===''||
+    !i|| i==='') {
+    alert("Please fill the matrix with numbers")
+  } else {
+  document.getElementById("matrix").innerHTML = determinante
+  document.getElementById("determinanteBtn").style.border = "2px solid #4CAF50"
+  }
+}
+
+function spur() {
+  var a = parseInt(document.getElementById("index0").value)
+  var b = parseInt(document.getElementById("index4").value)
+  var c = parseInt(document.getElementById("index8").value)
+
+if(!a||a===''||!b||b===''||!c||c==='') {
+alert("Please fill the matrix with numbers")
+} else  {
+  document.getElementById("matrix").innerHTML = a+b+c
+  var x = document.getElementById("spurBtn")
+  x.style.border = "2px solid black";
+}
+}
+
+function emtpyFields() {
+
+}

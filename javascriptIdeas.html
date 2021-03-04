@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+    </style>
 </head>
 <body>
 
@@ -26,6 +33,28 @@
 
 <div class="basic stopwatch"></div>
 <div class="basic stopwatch"></div>
+
+<h3>Matrix</h3>
+
+<input type="number" id="index0" min="0" max="10">
+<input type="number" id="index1" min="0" max="10">
+<input type="number" id="index2" min="0" max="10">
+<br>
+<input type="number" id="index3" min="0" max="10">
+<input type="number" id="index4" min="0" max="10">
+<input type="number" id="index5" min="0" max="10">
+<br>
+<input type="number" id="index6" min="0" max="10">
+<input type="number" id="index7" min="0" max="10">
+<input type="number" id="index8" min="0" max="10">
+<br><br>
+<button onclick=determinante() id="determinanteBtn">Determinante</button>
+<button onclick="spur()" id="spurBtn">Spur</button>
+<button onclick="emptyFields()">Empty field with 0</button>
+<br>
+
+<p id="matrix"></p>
+
 <script src="javascriptIdeas.js"></script>
    
 </body>
