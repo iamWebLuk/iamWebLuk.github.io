@@ -31,6 +31,22 @@ padding-left: 0px;
   animation-duration: 1000ms;
 }
 
+.tag {
+}
+
+.tag:hover {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+  transition: 1s;
+  transform: scale(1.1);
+  overflow: hidden !important;
+}
+
+.img-fluid:hover {
+  //transform: scale(1.2);
+  overflow: hidden !important;
+}
+
 .img-hover-zoom {
   height: 200px; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */

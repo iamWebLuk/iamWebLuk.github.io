@@ -31,6 +31,22 @@ html, body {
           animation-duration: 1000ms;
 }
 
+.tag:hover {
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+  /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  overflow: hidden !important;
+}
+
+.img-fluid:hover {
+  overflow: hidden !important;
+}
+
 .img-hover-zoom {
   height: 200px;
   /* [1.1] Set it as per your need */
