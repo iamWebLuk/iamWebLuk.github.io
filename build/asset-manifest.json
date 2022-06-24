@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3ba6d5b7.chunk.css",
+    "main.js": "/static/js/main.d09ad704.chunk.js",
+    "main.js.map": "/static/js/main.d09ad704.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3608ed27.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3608ed27.js.map",
+    "static/css/2.983f79de.chunk.css": "/static/css/2.983f79de.chunk.css",
+    "static/js/2.c3d4a3bb.chunk.js": "/static/js/2.c3d4a3bb.chunk.js",
+    "static/js/2.c3d4a3bb.chunk.js.map": "/static/js/2.c3d4a3bb.chunk.js.map",
+    "static/js/3.ca25fc2f.chunk.js": "/static/js/3.ca25fc2f.chunk.js",
+    "static/js/3.ca25fc2f.chunk.js.map": "/static/js/3.ca25fc2f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.3ba6d5b7.chunk.css.map": "/static/css/main.3ba6d5b7.chunk.css.map",
+    "static/js/2.c3d4a3bb.chunk.js.LICENSE.txt": "/static/js/2.c3d4a3bb.chunk.js.LICENSE.txt",
+    "static/media/BackToTop.3cc8d85c.png": "/static/media/BackToTop.3cc8d85c.png",
+    "static/media/Instagram_logo.c8478089.png": "/static/media/Instagram_logo.c8478089.png",
+    "static/media/Passfoto.5f53a0f9.png": "/static/media/Passfoto.5f53a0f9.png",
+    "static/media/Scu_Logo.2dc829d7.jpg": "/static/media/Scu_Logo.2dc829d7.jpg",
+    "static/media/csgo.3e393499.jpg": "/static/media/csgo.3e393499.jpg",
+    "static/media/hannes.091cf097.jpeg": "/static/media/hannes.091cf097.jpeg",
+    "static/media/scu Meister.6589269e.jpg": "/static/media/scu Meister.6589269e.jpg",
+    "static/media/smash.5bf1957c.jpg": "/static/media/smash.5bf1957c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3608ed27.js",
+    "static/css/2.983f79de.chunk.css",
+    "static/js/2.c3d4a3bb.chunk.js",
+    "static/css/main.3ba6d5b7.chunk.css",
+    "static/js/main.d09ad704.chunk.js"
+  ]
+}

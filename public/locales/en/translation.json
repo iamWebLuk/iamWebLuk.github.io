@@ -1,0 +1,64 @@
+{
+    "languages": {
+        "selectLanguage": "Select Language",
+        "german": "German",
+        "english": "English",
+        "dutch": "Dutch"
+    },
+    "navbar": {
+        "football": "Football",
+        "biography": "Biography",
+        "rubiksCube": "Rubiks Cube",
+        "cv": "Get my CV",
+        "blog": "Blog",
+        "jsTest": "JS Test",
+        "reactTest": "React Test"
+    },
+    "biography": {
+        "header": "Biography",
+        "text": "My name is Lukas, I am student at the University of Applied Sciene FH Joanneum.",
+        "subtext": "I was born and raised in lower austria and since september\n2019 I live in Graz for\nmy studies. My major is Mobile Software Development.\nCurrently I am in the 5th semester.\nAt this website you can see my hobbys and what I like."
+    },
+    "football": {
+        "header": "My Favorite Sports",
+        "subheader": "Football",
+        "text": "Champions 2018/2019"
+    },
+    "gaming": {
+        "header": "These are my favorite games",
+        "text": "Super Smash Bros. Ultimate & Call of Duty Warzone",
+        "subtext": "I play them often with my sister, Andi and Michi :)",
+        "trailerText": "For the Trailers, click on the images"
+    },
+    "hannes": {
+        "header": "Impressed of Hannes's mustache"
+    },
+    "soccer": {
+        "countrys": "Countrys",
+        "england": "England",
+        "austria": "Austria",
+        "germany": "Germany"
+    },
+    "footballContent": {
+        "league": "League",
+        "standings": "Standings"
+    },
+    "table": {
+        "place": "Place",
+        "logo": "Logo",
+        "team": "Team",
+        "played": "Played",
+        "won": "Won",
+        "draw": "Draw",
+        "lose": "Lose",
+        "goalFor": "GF",
+        "goalAgainst": "GA",
+        "goalDifference": "GD",
+        "points": "Points"
+    },
+    "login": {
+        "email": "Enter Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password"
+    }
+}

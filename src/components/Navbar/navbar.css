@@ -1,0 +1,82 @@
+    .navbar-toggler-icon::before {
+        transform: translateY(-10px);
+      }
+      .navbar-toggler-icon ::after {
+        transform: translateY(10px);
+      }
+      
+      /* Animation */
+      .navbar-toggler-icon .open .navbar-toggler-icon  {
+        transform: translateX(-50px);
+        background: transparent;
+        box-shadow: none;
+      }
+      
+      .navbar-toggler-icon .open .navbar-toggler-icon ::before {
+        transform: rotate(45deg) translate(35px, -35px);
+      }
+      
+      .navbar-toggler-icon  .navbar-toggler-icon ::after {
+        transform: rotate(-45deg) translate(35px, 35px);
+      }
+
+      .logo-Margin {
+         margin-right: 10px;
+      }
+
+      .navbar-margin {
+          margin-left: 20px;
+      }
+      .dropdown-button {
+          background-color: #212529;
+          border: none;
+          /*margin-right: 20px;*/
+      }
+      .dropdown-button:hover {
+          text-decoration: none;
+          background-color: #212529;
+      }
+
+      #dropdown-basic {
+        background-color: #212529;
+      }
+
+      .language-icon {
+          color: white;
+          font-size: 1.8em;
+      }
+
+      .dropdown-buttons-text {
+          color: black;
+          text-decoration: none;
+      }
+
+      .rubiksCube {
+          text-decoration: none;
+          color: #92969B;
+          display: flex;
+          margin-top: 0.5em;
+      }
+
+    /* color is for the light blue navbar hover color*/
+    /*color: #61DAFB;*!*/
+
+    .github-icon {
+        color: white;
+        margin-right: 20px;
+    }
+
+    .NavLink {
+        color: rgba(255,255,255,0.55);
+        text-decoration: none;
+    }
+    .NavLink:hover {
+        color: #61DAFB;
+        transition: 0.2s;
+    }
+
+    .NavPadding {
+        margin-top: 0.5em;
+        padding-left: 0.5rem;
+        padding-right : 0.5rem;
+    }

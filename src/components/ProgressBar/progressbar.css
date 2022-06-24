@@ -1,0 +1,5 @@
+.enterButton {
+    filter: brightness(1.4);
+    backgroundColor: purple;
+    color: white;
+}

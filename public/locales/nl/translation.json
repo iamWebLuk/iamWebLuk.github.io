@@ -1,0 +1,51 @@
+{
+  "languages": {
+    "selectLanguage": "Selecteer Taal",
+    "german": "Duits",
+    "english": "Engels",
+    "dutch": "Nederlands"
+  },
+  "navbar": {
+    "football": "Voetbal",
+    "biography": "Biografie",
+    "rubiksCube": "Rubiks Cube",
+    "cv": "Krijg mijn CV",
+    "blog": "Blog",
+    "jsTest": "JS Test",
+    "reactTest": "React Test"
+  },
+  "biography": {
+    "header": "Biografie",
+    "text": "Mijn naam is Lukas en ik ben een student aan de hogeschool FH Joaneum. ",
+    "subtext": "Ik ben geboren en getogen in Neder-Oostenrijk en sinds september 2019 woon ik in Graz vanwege mijn studie. Mijn studegebied is Mobile Software Development. Momenteel zit ik in mijn 5e semester. Op deze website kun je mijn hobby's zien en dingen die ik leuk vind."
+  },
+  "football": {
+    "header": "Mijn favoriete sport",
+    "subheader": "Voetbal",
+    "text": "Kampioenen 2018/2019"
+  },
+  "gaming": {
+    "header": "Dit zijn mijn favoriete spellen",
+    "text": "Super Smash Bros. Ultimate & Counter Strike Global Offensive",
+    "subtext": "Ik speel deze spellen vaak met mijn suz, Andi en Michi :)",
+    "trailerText": "Klik op de foto's om de trailer te zien"
+  },
+  "hannes": {
+    "header": "Onder de indruk van de snor van Hannes"
+  },
+  "soccer": {
+    "countrys": "Landen",
+    "england": "Engeland",
+    "austria": "Oostenrijk",
+    "germany": "Duitsland"
+  },
+  "footballContent": {
+    "league": "Afdeling",
+    "standings": "Stand"
+  },
+  "login": {
+    "email": "Email",
+    "password": "Wachtwoord",
+    "confirmPassword": "Wachtwoord Bevestigen"
+  }
+}

@@ -1,0 +1,22 @@
+#white-text {
+    color: white;
+    text-decoration: none;
+}
+
+.arrowStyle {
+    color: white;
+    font-size: 30px;
+    /*fontSize: '30px';*/
+    margin-top: 5%;
+}
+
+.instagramLogo {
+    width: 40px;
+    height:30px;
+    padding-right: 10px;
+}
+
+.githubLogo {
+    width: 30px;
+    height: 30px;
+}
