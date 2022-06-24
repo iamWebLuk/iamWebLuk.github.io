@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f4dc0d-9a4e-4614-af12-c475a07ee166" name="Default Changelist" comment="changed page settings to gh-pages">
+    <list default="true" id="22f4dc0d-9a4e-4614-af12-c475a07ee166" name="Default Changelist" comment="added hashrroute">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610722168545</updated>
       <workItem from="1610722169682" duration="1820000" />
-      <workItem from="1656073766283" duration="3148000" />
+      <workItem from="1656073766283" duration="3602000" />
     </task>
     <task id="LOCAL-00001" summary="added all the react-websites files">
       <created>1656075699031</created>
@@ -78,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656076489836</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added hashrroute">
+      <created>1656077161589</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656077161589</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +110,8 @@
     <MESSAGE value="added scripts and homepage to package.json" />
     <MESSAGE value="entered &quot;npm run deploy&quot; ín terminal" />
     <MESSAGE value="changed page settings to gh-pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed page settings to gh-pages" />
+    <MESSAGE value="added browserroute" />
+    <MESSAGE value="added hashrroute" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hashrroute" />
   </component>
 </project>

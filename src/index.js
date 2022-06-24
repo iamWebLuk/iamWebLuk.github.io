@@ -7,13 +7,9 @@ import './components/i18n'
 import { HashRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
-    <React.StrictMode>
         <Router>
-   <Suspense fallback={<div>Loading... </div>}>
-    <App />
-       </Suspense>
-        </Router>
-    </React.StrictMode>,
+             <App />
+        </Router>,
   document.getElementById('root')
 );
 

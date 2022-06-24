@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Gaming from'./components/Gaming/Gaming';
 import Hannes from './components/Hannes/Hannes';
 import RubiksCube from "./components/RubiksCube/RubiksCube";
