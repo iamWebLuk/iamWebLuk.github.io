@@ -1,251 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f4dc0d-9a4e-4614-af12-c475a07ee166" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/2.983f79de.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/2.983f79de.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.3ba6d5b7.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.3ba6d5b7.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.c3d4a3bb.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.c3d4a3bb.chunk.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.c3d4a3bb.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/3.ca25fc2f.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/3.ca25fc2f.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.d09ad704.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.d09ad704.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.3608ed27.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.3608ed27.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firebase-debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/locales/de/translation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/locales/nl/translation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Firebase/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hooks/useStorage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/axiosFile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppBar/AppBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppBar/appBarCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Authentication/AuthModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Authentication/LoginPopUp.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Authentication/Signup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Authentication/authModalCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Authentication/loginPopUpCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Biography/Biography.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Biography/biography.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blog/Blog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blog/Posts/Posts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blog/Posts/postsCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Blog/blogCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/CloseButton/CloseButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/CloseButton/closeButtonCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/OKButton/OKButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/OKButton/okButtonCss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Error/Error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Error/error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Football/Football.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Football/football.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Gaming/Gaming.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Gaming/gaming.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hannes/Hannes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hannes/hannes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/NavbarCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/NavbarOwn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OldWebsite/javascriptIdeas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PictureSite/PictureSite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PictureSite/pictureSite.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfilePage/profilePageCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProgressBar/ProgressBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProgressBar/progressbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RubiksCube/RubiksCube.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RubiksCube/rubiksCube.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Settings/SettingsPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Soccer/FootballTeams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Soccer/Links.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Soccer/Soccer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Soccer/TeamLogo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Soccer/soccerCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Soccer/teamLogoCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SpringConnector/SpringConnector.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SpringConnector/springConnectorCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StarWars/StarWars.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StarWars/starWarsCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/NewFile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/NewFile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/NewSoccerFile/Content.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/NewSoccerFile/LeagueButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/NewSoccerFile/Leagues.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/NewSoccerFile/LeaguesCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/NewSoccerFile/NewSoccerFile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/NewSoccerFile/StandingHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/NewSoccerFile/Standings.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/NewSoccerFile/YearButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/NewSoccerFile/standingsCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tryout/Standing.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UploadForm/UploadForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UploadForm/uploadForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/i18n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ChessPieces/Chess_pdt26.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ChessPieces/Chess_rdt26.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ChessPieces/Chess_rlt26.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ChessPieces/Chess_tile_bd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ChessPieces/Chess_tile_bl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ChessPieces/Chess_tile_kd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ChessPieces/Chess_tile_kl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ChessPieces/Chess_tile_nd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ChessPieces/Chess_tile_nl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ChessPieces/Chess_tile_qd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ChessPieces/Chess_tile_ql-whitebg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Arsenal_Logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/AstonVilla_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Brentford_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Brighton&amp;HoveAlbion_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Burnley_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Chelsea_Logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/CrystalPalace_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Everton_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/LeedsUnited_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/LeicesterCity_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Liverpool_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/ManchesterCity_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/ManchesterUnited_Logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Newcastle_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Norwich_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/SheffieldUnited_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Southampton_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Tottenham_Logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Watford_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/WestBromwich_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/WestHam_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Premiere League/Wolverhampton_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/csgo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="22f4dc0d-9a4e-4614-af12-c475a07ee166" name="Default Changelist" comment="added all the react-websites files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0CDD028FDC6E84867094C931DA25D1B2.cache.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5AA66676178B6A605AB8668D8C6D783B.cache.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8853F6426AEF9EB8F7C45DF94EDDCB8D.cache.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9479A9C3316A15784ECD8847CC6F34ED.cache.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackToTop.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/media/BackToTop.3cc8d85c.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/CV.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EA4E069786039CD68B1840B8F14CA42D.cache.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitHub-Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/GitHub_Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Instagram_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/media/Instagram_logo.c8478089.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passfoto.jpg.sb-0c6b24b2-W4aXXf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Passfoto.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/media/Passfoto.5f53a0f9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scu_Logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/media/Scu_Logo.2dc829d7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextFiles/3OClock.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextFiles/AnimCube3Cross.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextFiles/FirstLayer.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextFiles/LastStep.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextFiles/OrientEdge.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextFiles/OrientEdgeAgain.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextFiles/SecondLayer.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextFiles/YellowCross.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/animcube3.nocache.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backgroundPicture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csgo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/media/csgo.3e393499.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hamburger.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hannes.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/media/hannes.091cf097.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascriptIdeas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldWebsite/javascriptIdeas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascriptIdeas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link.rtf.sb-6aedefb9-HZhXMU" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldWebsite/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldWebsite/mouse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mystyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/BackToTop.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/BackToTop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/GitHub-Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Instagram_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Instagram_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Passfoto.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Passfoto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/02-white-cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/02-white-cross.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/12-yellow-cross-rubiks-cube-solution.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/12-yellow-cross-rubiks-cube-solution.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/Dot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/Dot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/F2l-solved.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/F2l-solved.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/L-Shape.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/L-Shape.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/Line.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/Line.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/Natations.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/Natations.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/Solved-rubiks-cube.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/Solved-rubiks-cube.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/Solved-white-face.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/Solved-white-face.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/Top-edges.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/Top-edges.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/Yellow-cross-solved.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/Yellow-cross-solved.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/rots.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/rots.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/RubiksCube/yellow_Cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/RubiksCubePictures/yellow_Cross.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/12.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/13.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/16.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/17.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/downReverse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/front.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/frontReverse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/leftReverse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/links.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/rechts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/rightReverse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Rubiks_Cube_Tutorial/upReverse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/Scu_Logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Scu_Logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/arrow-up-short.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/hannes.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hannes.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/house.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/scu Meister.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/media/scu Meister.6589269e.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/smash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/media/smash.5bf1957c.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/warzone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/wood.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rubiks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rubiksCube.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rubiksCubeTutorial.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RubiksCube/Tutorial/rubiksCubeTutorial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scu Meister.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/scu Meister.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/smash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/warzone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wood.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,8 +50,16 @@
       <option name="presentableId" value="Default" />
       <updated>1610722168545</updated>
       <workItem from="1610722169682" duration="1820000" />
-      <workItem from="1656073766283" duration="1787000" />
+      <workItem from="1656073766283" duration="2175000" />
     </task>
+    <task id="LOCAL-00001" summary="added all the react-websites files">
+      <created>1656075699031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656075699031</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added all the react-websites files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added all the react-websites files" />
   </component>
 </project>
