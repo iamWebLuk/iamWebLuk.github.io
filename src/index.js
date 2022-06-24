@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './components/i18n'
+import { HashRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
     <React.StrictMode>
+        <Router>
    <Suspense fallback={<div>Loading... </div>}>
     <App />
        </Suspense>
+        </Router>
     </React.StrictMode>,
   document.getElementById('root')
 );
