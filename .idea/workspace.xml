@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f4dc0d-9a4e-4614-af12-c475a07ee166" name="Default Changelist" comment="added all the react-websites files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="22f4dc0d-9a4e-4614-af12-c475a07ee166" name="Default Changelist" comment="entered &quot;npm run deploy&quot; ín terminal" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610722168545</updated>
       <workItem from="1610722169682" duration="1820000" />
-      <workItem from="1656073766283" duration="2175000" />
+      <workItem from="1656073766283" duration="2526000" />
     </task>
     <task id="LOCAL-00001" summary="added all the react-websites files">
       <created>1656075699031</created>
@@ -59,7 +54,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656075699031</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added scripts and homepage to package.json">
+      <created>1656076077923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656076077923</updated>
+    </task>
+    <task id="LOCAL-00003" summary="entered &quot;npm run deploy&quot; ín terminal">
+      <created>1656076295859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656076295859</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +87,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added all the react-websites files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added all the react-websites files" />
+    <MESSAGE value="added scripts and homepage to package.json" />
+    <MESSAGE value="entered &quot;npm run deploy&quot; ín terminal" />
+    <option name="LAST_COMMIT_MESSAGE" value="entered &quot;npm run deploy&quot; ín terminal" />
   </component>
 </project>
