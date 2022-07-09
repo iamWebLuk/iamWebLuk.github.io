@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f4dc0d-9a4e-4614-af12-c475a07ee166" name="Default Changelist" comment="added hashrroute">
+    <list default="true" id="22f4dc0d-9a4e-4614-af12-c475a07ee166" name="Default Changelist" comment="deleted some tags in index.js">
+      <change afterPath="$PROJECT_DIR$/src/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppBar/AppBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar/AppBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Authentication/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Authentication/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Authentication/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Authentication/Signup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RubiksCube/RubiksCube.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RubiksCube/RubiksCube.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +34,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/Authentication/loginPopUpCSS.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package-lock.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Authentication/LoginPopUp.jsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1n6t3CB3fGxHCV51DzAR9uExWeE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,7 +53,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -51,7 +71,15 @@
       <option name="presentableId" value="Default" />
       <updated>1610722168545</updated>
       <workItem from="1610722169682" duration="1820000" />
-      <workItem from="1656073766283" duration="3602000" />
+      <workItem from="1656073766283" duration="4245000" />
+      <workItem from="1656321310731" duration="5443000" />
+      <workItem from="1656355570820" duration="45000" />
+      <workItem from="1656355695073" duration="3200000" />
+      <workItem from="1656409295120" duration="4692000" />
+      <workItem from="1656915149688" duration="2738000" />
+      <workItem from="1657181608423" duration="1203000" />
+      <workItem from="1657259305060" duration="6258000" />
+      <workItem from="1657269908899" duration="4317000" />
     </task>
     <task id="LOCAL-00001" summary="added all the react-websites files">
       <created>1656075699031</created>
@@ -88,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656077161589</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="deleted some tags in index.js">
+      <created>1656077474277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656077474277</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +139,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added all the react-websites files" />
@@ -112,6 +148,7 @@
     <MESSAGE value="changed page settings to gh-pages" />
     <MESSAGE value="added browserroute" />
     <MESSAGE value="added hashrroute" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hashrroute" />
+    <MESSAGE value="deleted some tags in index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted some tags in index.js" />
   </component>
 </project>

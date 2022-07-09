@@ -37,9 +37,11 @@ export default function Login({ handleClose, changeButtonLabel }) {
             signInWithEmailAndPassword(auth, email, password)
                 .then((userCredential) => {
                     const user = userCredential.user;
-                    console.log("you are now logged in " + email)
-                    handleClose();
-                    changeButtonLabel(email.toString())
+                    if (user.emailVerified) {
+                        console.log("you are now logged in " + email)
+                        handleClose();
+                        changeButtonLabel(email.toString())
+                    }
                 })
                 .catch((err) => {
                     const errorMessage = err.message;

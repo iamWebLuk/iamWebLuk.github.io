@@ -36,40 +36,7 @@ const { t, i18n } = useTranslation();
 const pages = [t('navbar.football'),t('navbar.rubiksCube'),t('navbar.cv'), t('navbar.blog'), t('navbar.jsTest'), t('navbar.reactTest')];
 const links = ["/football","/rubiksCube", "/cv", "/blog"];
 
-
-// eslint-disable-next-line react-hooks/rules-of-hooks
-const [flag, setFlag] = useState(<ReactCountryFlag countryCode={'AT'} />);
-// eslint-disable-next-line react-hooks/rules-of-hooks
-const [germanDisabled, setGermanDisabled] = useState(false);
-// eslint-disable-next-line react-hooks/rules-of-hooks
-const [englishDisabled, setEnglishDisabled] = useState(true);
-// eslint-disable-next-line react-hooks/rules-of-hooks
-const [dutchDisabled, setDutchDisabled] = useState(false)
-
     const classes = useStyles();
-
-let changeLanguage = (sprache) => {
-    if (sprache === 'de') {
-        setFlag(<ReactCountryFlag countryCode={'AT'} />);
-        i18n.changeLanguage('de')
-        setGermanDisabled(true);
-        setEnglishDisabled(false);
-        setDutchDisabled(false);
-    } else if (sprache === 'en') {
-        setFlag(<ReactCountryFlag countryCode={'GB'} />);
-        i18n.changeLanguage('en')
-        setEnglishDisabled(true);
-        setGermanDisabled(false);
-        setDutchDisabled(false);
-    } else {
-        setFlag(<ReactCountryFlag countryCode={'NL'} />);
-        i18n.changeLanguage('nl');
-        setDutchDisabled(true);
-        setEnglishDisabled(false);
-        setGermanDisabled(false);
-    }
-}
-
 
 
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -108,7 +75,7 @@ let changeLanguage = (sprache) => {
     },)
 
     return (
-            <AppBar position="static" style={{backgroundColor: '#373A3E'}}>
+            <AppBar position="static" style={{backgroundColor: '#373A3E', zIndex: '1000'}}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <a href="/" className={classes.root}>
@@ -189,9 +156,9 @@ let changeLanguage = (sprache) => {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu align="start">
-                            <Dropdown.Item onClick={() => {changeLanguage("de")}} disabled={germanDisabled}><Flags.DE style={{height:'1.3em', marginRight: '10px'}} />{t('languages.german')} </Dropdown.Item>
-                            <Dropdown.Item onClick={() => {changeLanguage("en")}} disabled={englishDisabled}> <Flags.GB style={{height:'1.3em', marginRight: '10px'}} /> {t('languages.english')} </Dropdown.Item>
-                            <Dropdown.Item onClick={() => {changeLanguage('nl')}} disabled={dutchDisabled}><Flags.NL style={{height:'1.3em', marginRight: '10px'}} /> {t('languages.dutch')} </Dropdown.Item>
+                            <Dropdown.Item onClick={() => {i18n.changeLanguage('de')}} disabled={i18n.language === 'de'}><Flags.DE style={{height:'1.3em', marginRight: '10px'}} />{t('languages.german')} </Dropdown.Item>
+                            <Dropdown.Item onClick={() => {i18n.changeLanguage("en")}} disabled={i18n.language === 'en'}> <Flags.GB style={{height:'1.3em', marginRight: '10px'}} /> {t('languages.english')} </Dropdown.Item>
+                            <Dropdown.Item onClick={() => {i18n.changeLanguage('nl')}} disabled={i18n.language === 'nl'}><Flags.NL style={{height:'1.3em', marginRight: '10px'}} /> {t('languages.dutch')} </Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </Tooltip>

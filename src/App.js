@@ -21,6 +21,7 @@ import ResponsiveAppBar from "./components/AppBar/AppBar";
 import ProfilePage from "./components/ProfilePage/ProfilePage.jsx";
 import SettingsPage from "./components/Settings/SettingsPage.jsx";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
+import Drawers from "./components/Drawers";
 
 function App() {
 
@@ -51,13 +52,14 @@ function App() {
   return (
       <ThemeProvider theme={darkTheme}>
           <ResponsiveAppBar />
-      <Router>
+      {/*<Router>*/}
     <div className="App" >
         <Routes>
-            <Route exact path="/" element={<Home />} />
+            {/*<Route exact path="/" element={<Home />} />*/}
+            <Route exact path="/" element={<Drawers />} />
             {/*<Route path="/" element={<ProfilePage username={username}/>} />*/}
             <Route path="/rubiksCube" element={ <RubiksCube />} />
-            <Route path="/football" element={<Content />} />
+            <Route exact path="/#/football" element={<Content />} />
             <Route path="/Gaming" elemnt={<Gaming />} />
             <Route path="/Hannes" element={<Hannes />} />
             <Route path="/picture" element={<PictureSite />} />
@@ -72,7 +74,7 @@ function App() {
 
         </Routes>
     </div>
-      </Router>
+      {/*</Router>*/}
           </ThemeProvider>
   );
 }

@@ -17,6 +17,7 @@ export default function Signup({ handleClose }) {
     const { t } = useTranslation();
 
 
+    const [displayName, setDisplayName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
@@ -53,9 +54,9 @@ export default function Signup({ handleClose }) {
             createUserWithEmailAndPassword(auth, email, password)
                 .then((userCredential) => {
                     const user = userCredential.user;
+                    // user.displayName = displayName;
                     setEverythingCorrect(true)
                     handleClose();
-
                     sendEmailVerification(user)
                     .then(() => {
                         let msg = 'An email verification link has been sent to ' + user.email;
@@ -69,6 +70,10 @@ export default function Signup({ handleClose }) {
 
 
                 })
+                .then(auth => {
+                    return auth.user
+                        .updateProfile({displayName: displayName})
+                })
                 .catch((err) => {
                     const errorCode = err.code;
                     const errorMessage = err.message;
@@ -79,8 +84,17 @@ export default function Signup({ handleClose }) {
 
 
 
+
     return (
             <Box p={3} style={{display: 'flex', flexDirection:'column', gap: '30px'}}>
+                <TextField
+                    id="outlined-basic"
+                    variant="outlined"
+                    type="email"
+                    label={t("login.displayName")}
+                    value={displayName}
+                    onChange={(e) => setDisplayName(e.target.value)}
+                    fullWidth />
                 <TextField
                     id="outlined-basic"
                     variant="outlined"
@@ -109,6 +123,7 @@ export default function Signup({ handleClose }) {
                 <div style={{display: 'flex', justifyContent: 'space-between'}}>
                     <CloseButton handleClose={handleClose}/>
                     <a><Button onClick={newUser} disabled={!samePassword}>Registierung</Button></a>
+
                 </div>
             </Box>
     )

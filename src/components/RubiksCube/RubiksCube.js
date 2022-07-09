@@ -36,8 +36,8 @@ function RubiksCube() {
 
         <div>
         <link rel="stylesheet" href="./dist/css/main.css" />
-            <script src="http://code.jquery.com/jquery.js"></script>
-            <script src="bootstrap/js/bootstrap.js"></script>
+            {/*<script src="http://code.jquery.com/jquery.js"></script>*/}
+            {/*<script src="bootstrap/js/bootstrap.js"></script>*/}
 
             <br />
                 <h2 style={{paddingTop: '20px', fontFamily: 'Brygada 1918'}}> Rubik's Cube </h2>
