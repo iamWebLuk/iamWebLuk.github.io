@@ -52,30 +52,26 @@ function App() {
   return (
       <ThemeProvider theme={darkTheme}>
           <ResponsiveAppBar />
-      {/*<Router>*/}
-    <div className="App" >
-        <Routes>
-            {/*<Route exact path="/" element={<Home />} />*/}
-            <Route exact path="/" element={<Drawers />} />
-            {/*<Route path="/" element={<ProfilePage username={username}/>} />*/}
-            <Route path="/rubiksCube" element={ <RubiksCube />} />
-            <Route exact path="/#/football" element={<Content />} />
-            <Route path="/Gaming" elemnt={<Gaming />} />
-            <Route path="/Hannes" element={<Hannes />} />
-            <Route path="/picture" element={<PictureSite />} />
-            <Route path="/cv" element={ <iframe src={ CV } height="100%" width="100%" style={{position: 'absolute', left: '0'}}></iframe>} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/createPost" element={<Posts />} />
-
-            <Route path="/profile" element={<ProfilePage username={username}/>} />
-            <Route path="/settings" element={<SettingsPage />} />
-            <Route path="*" element={<Error />} />
-            <Route element={<Error blogs={"text"} errorMesage1={"errormessage"} abc={"hallo"} />} />
-
-        </Routes>
-    </div>
-      {/*</Router>*/}
-          </ThemeProvider>
+              <div className="App" >
+<Routes>
+                  <Route exact path="/" element={<Home />} />
+                  {/*<Route exact path="/" element={<Drawers />} />*/}
+                  {/*<Route path="/" element={<ProfilePage username={username}/>} />*/}
+                  <Route path="/rubiksCube" element={ <RubiksCube />} />
+                  <Route exact path="/#/football" element={<Content />} />
+                  <Route path="/Gaming" elemnt={<Gaming />} />
+                  <Route path="/Hannes" element={<Hannes />} />
+                  <Route path="/picture" element={<PictureSite />} />
+                  <Route path="/cv" element={ <iframe src={ CV } height="100%" width="100%" style={{position: 'absolute', left: '0'}}></iframe>} />
+                  <Route path="/blog" element={<Blog />} />
+                  <Route path="/createPost" element={<Posts />} />
+                  <Route path="/profile" element={<ProfilePage username={username}/>} />
+                  <Route path="/settings" element={<SettingsPage />} />
+                  <Route path="*" element={<Error />} />
+                  <Route element={<Error blogs={"text"} errorMesage1={"errormessage"} abc={"hallo"} />} />
+</Routes>
+</div>
+      </ThemeProvider>
   );
 }
 

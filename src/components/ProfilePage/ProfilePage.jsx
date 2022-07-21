@@ -1,12 +1,21 @@
-import React, {useState} from 'react';
+import React, { useContext, useState } from 'react';
 import {Drawer, Modal, TextField} from "@material-ui/core";
 import useStyles from "./profilePageCSS";
 import Avatar from "@mui/material/Avatar";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
-import { getAuth, updatePassword, deleteUser, sendPasswordResetEmail } from 'firebase/auth';
+import {
+    getAuth,
+    updatePassword,
+    deleteUser,
+    sendPasswordResetEmail,
+    reauthenticateWithCredential,
+    EmailAuthProvider } from 'firebase/auth';
 import Box from "@mui/material/Box";
 import Drawers from "../Drawers";
+import CloseButton from "../Buttons/CloseButton/CloseButton";
+import OKButton from "../Buttons/OKButton/OKButton";
+import UserNameContext from "./../../UserNameContext";
 
 
 export default function ProfilePage({ username }) {
@@ -16,12 +25,12 @@ export default function ProfilePage({ username }) {
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
-        width: 400,
+        width: '400px',
         bgcolor: 'background.paper',
         border: '2px solid #000',
         boxShadow: 24,
         borderRadius: '10px',
-        height: '100px'
+        height: '200px'
     };
 
     const classes = useStyles();
@@ -29,74 +38,83 @@ export default function ProfilePage({ username }) {
     const auth = getAuth();
     const user = auth.currentUser;
     // const newPassword = getASecureRandomPassword();
-    const [open, setOpen] = useState(true);
-    // const email = () => {
-    //    // return username.substring(0, username.lastIndexOf('@')).toUpperCase();
-    //    return username.charAt(0).toUpperCase();
-    // }
+    const [open, setOpen] = useState(false);
+    const [deleteAccount, setDeleteAccount] = useState(false);
+    const [password, setPassword] = useState('');
+
+    const email = () => {
+       // return username.substring(0, username.lastIndexOf('@')).toUpperCase();
+       return username.charAt(0).toUpperCase();
+    }
+
+    // const result = await reauthenticateWithCredential(auth.currentUser, credentials);
+    // user.reauthenticateWithCredential(credentials);
 
     const deleteCurrentUser = () => {
-        deleteUser(user).then(() => {
-            alert("you have deleted your account")
-            console.log("User deleted");
-            navigate("/");
-            window.location.reload();
-        }).catch((err) => {
-            console.log("You have deleted your account")
-            console.log(err)
+
+        const credentials = EmailAuthProvider.credential(user.email, password);
+        reauthenticateWithCredential(user, credentials).then(() => {
+            deleteUser(user).then(() => {
+                alert("you have deleted your account")
+                console.log("User deleted");
+                navigate("/");
+                window.location.reload();
+            }).catch((err) => {
+                console.log("You have deleted your account")
+                console.log(err)
+            })
         })
+            .catch((e) => {
+                if (password === "") {
+                    alert("Enter password")
+                }
+                console.log(e.message + " wrong password")
+            })
     }
-const abc = () => {
-    console.log("fire")
-    console.log(user)
-    const userString = user.toString();
-        // sendPasswordResetEmail(auth, userString)
-        //     .then(() => {
-        //
-        //     })
-        //     .catch((err) => {
-        //         console.log(err)
-        //     })
-}
 
-    // const getDisplayName = () => {
-    //     console.log(user.displayName + " displaname")
-    //     console.log(user.email + " email")
-    // }
-
+    const hallihallo = useContext(UserNameContext);
 
     return(
         <div>
+            {hallihallo}
             Profile Site
             <br />
-            <Drawers />
+            {/*<Drawers />*/}
             <div className={classes.email}>
-            {/*<Avatar sx={{width: 100, height: 100, bgcolor: "green", fontSize: '50px'}}>{email()}</Avatar>*/}
-                {/*<div>Email: {username}</div>*/}
+            <Avatar sx={{width: 100, height: 100, bgcolor: "green", fontSize: '50px'}}>{email()}</Avatar>
+                <div>Email: {username}</div>
                 <TextField
                 placeholder={'username'}
                 />
                 <Button onClick={() => navigate("/settings")}>Settings</Button>
                 <Button onClick={() => setOpen(true)}>Delete your account</Button>
             </div>
-            <div>
-                <Button onClick={abc}> reset password</Button>
-            </div>
             {/*<Button onClick={getDisplayName}>displayname</Button>*/}
 
+            {/*<Modal open={open} className={classes.modal}>*/}
             <Modal open={open}>
-                <Box sx={style}>Are you sure?
-                    <div style={{justifyContent: 'spaceBetween'}}>
-                    <Button onClick={deleteCurrentUser}>
-                        Yes
-                    </Button>
-                    <Button onClick={() => setOpen(false)}>
-                        NO
-                    </Button>
+                <Box sx={style}>
+                    <h4 style={{textAlign: 'center', marginTop: '10px'}}>Are you sure?</h4>
+                    <TextField onChange={event => setPassword(event.target.value)} placeholder={"Enter Password"}/>
+                    <div style={{display: 'flex', justifyContent: 'space-evenly', marginTop: '50px'}}>
+                        <CloseButton handleClose={() => setOpen(false)}/>
+                        <OKButton handleClick={() => deleteCurrentUser()} />
                     </div>
                 </Box>
             </Modal>
 
+            {/*<Button onClick={() => console.log(credentials + " credentials")}>reidentify</Button>*/}
+<Button onClick={() => console.log(user.email)}>click me</Button>
+            <Modal open={deleteAccount}>
+                <Box sx={style}>
+                    <h4 style={{textAlign: 'center', marginTop: '10px'}}>Enter password?</h4>
+                    <div style={{display: 'flex', justifyContent: 'space-evenly', marginTop: '50px'}}>
+                        <CloseButton handleClose={() => setDeleteAccount(false)}/>
+                        <OKButton handleClick={() => deleteCurrentUser()} />
+                        <TextField onChange={event => setPassword(event.target.value)} />
+                    </div>
+                </Box>
+            </Modal>
         </div>
     )
 }

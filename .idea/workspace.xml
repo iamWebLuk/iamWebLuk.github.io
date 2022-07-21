@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f4dc0d-9a4e-4614-af12-c475a07ee166" name="Default Changelist" comment="deleted some tags in index.js">
+    <list default="true" id="22f4dc0d-9a4e-4614-af12-c475a07ee166" name="Default Changelist" comment="played a little bit with firebase">
       <change afterPath="$PROJECT_DIR$/src/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserNameContext.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppBar/AppBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar/AppBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Authentication/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Authentication/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Authentication/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Authentication/Signup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RubiksCube/RubiksCube.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RubiksCube/RubiksCube.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfilePage/profilePageCSS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilePage/profilePageCSS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Settings/SettingsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Settings/SettingsPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../e-commerce" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -80,6 +82,11 @@
       <workItem from="1657181608423" duration="1203000" />
       <workItem from="1657259305060" duration="6258000" />
       <workItem from="1657269908899" duration="4317000" />
+      <workItem from="1657347357998" duration="493000" />
+      <workItem from="1657518694562" duration="7593000" />
+      <workItem from="1657875980299" duration="1443000" />
+      <workItem from="1657890054091" duration="3853000" />
+      <workItem from="1657956690226" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="added all the react-websites files">
       <created>1656075699031</created>
@@ -123,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656077474277</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="played a little bit with firebase">
+      <created>1657347437410</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657347437410</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +163,7 @@
     <MESSAGE value="added browserroute" />
     <MESSAGE value="added hashrroute" />
     <MESSAGE value="deleted some tags in index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted some tags in index.js" />
+    <MESSAGE value="played a little bit with firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="played a little bit with firebase" />
   </component>
 </project>

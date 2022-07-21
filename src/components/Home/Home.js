@@ -10,7 +10,7 @@ import AppBar from "../AppBar/AppBar";
 function Home() {
 return(
     <div>
-        <Biography />
+        {/*<Biography />*/}
         <Football />
         <Gaming />
         <Hannes />

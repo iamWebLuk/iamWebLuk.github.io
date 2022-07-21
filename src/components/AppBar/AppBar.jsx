@@ -75,7 +75,7 @@ const links = ["/football","/rubiksCube", "/cv", "/blog"];
     },)
 
     return (
-            <AppBar position="static" style={{backgroundColor: '#373A3E', zIndex: '1000'}}>
+            <AppBar position="static" style={{backgroundColor: '#373A3E'}} sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <a href="/" className={classes.root}>
